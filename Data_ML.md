@@ -13,7 +13,6 @@
     The ML models require the data in the pair X, y to train and X, to feed to models for predicting.
 
     We choose the pipeline for generating useful feature is: from xyz file , use some helpful library such as RDKit or OpenBabel 
-
     to calculate the mol (representation of molecule that have the xyz file), after that we use this mol to calculate the chemiscal and 
     
     physical features of molecule. All of them need to be stored in the format .csv for future processing. We also xyz file to calculate 
